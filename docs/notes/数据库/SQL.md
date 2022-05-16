@@ -1,3 +1,9 @@
+---
+icon: 
+title: SQL
+---
+
+
 <!-- GFM-TOC -->
 * [一、基础](#一基础)
 * [二、创建表](#二创建表)
@@ -148,6 +154,7 @@ TRUNCATE TABLE mytable;
 
 使用更新和删除操作时一定要用 WHERE 子句，不然会把整张表的数据都破坏。可以先用 SELECT 语句进行测试，防止错误删除。
 
+
 # 七、查询
 
 ## DISTINCT
@@ -229,6 +236,7 @@ WHERE col IS NULL;
 
 **NOT**  操作符用于否定一个条件。
 
+
 # 十、通配符
 
 通配符也是用在过滤语句中，但它只能用于文本字段。
@@ -249,6 +257,7 @@ WHERE col LIKE '[^AB]%'; -- 不以 A 和 B 开头的任意文本
 
 不要滥用通配符，通配符位于开头处匹配会非常慢。
 
+
 # 十一、计算字段
 
 在数据库服务器上完成数据的转换和格式化的工作往往比客户端上快得多，并且转换和格式化后的数据量更少的话可以减少网络通信量。
@@ -266,6 +275,7 @@ FROM mytable;
 SELECT CONCAT(TRIM(col1), '(', TRIM(col2), ')') AS concat_col
 FROM mytable;
 ```
+
 
 # 十二、函数
 
@@ -315,7 +325,7 @@ WHERE SOUNDEX(col1) = SOUNDEX('apple')
 
 
 - 日期格式：YYYY-MM-DD
-- 时间格式：HH:<zero-width space/>MM:SS
+- 时间格式：HH:MM:SS
 
 |     函 数     |             说 明              |
 | :-----------: | :----------------------------: |
@@ -779,5 +789,3 @@ SET PASSWROD FOR myuser = Password('new_password');
 # 参考资料
 
 - BenForta. SQL 必知必会 [M]. 人民邮电出版社, 2013.
-
-

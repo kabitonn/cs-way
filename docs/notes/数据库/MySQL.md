@@ -1,11 +1,11 @@
 <!-- GFM-TOC -->
 * [一、索引](#一索引)
-  * [B+ Tree 原理](#B-Tree-原理)
+  * [B+ Tree 原理](#b-tree-原理)
     * [1. 数据结构](#1-数据结构)
     * [2. 操作](#2-操作)
     * [3. 与红黑树的比较](#3-与红黑树的比较)
-  * [MySQL 索引](#MySQL-索引)
-    * [1. B+Tree 索引](#1-BTree-索引)
+  * [MySQL 索引](#mysql-索引)
+    * [1. B+Tree 索引](#1-btree-索引)
     * [2. 哈希索引](#2-哈希索引)
     * [3. 全文索引](#3-全文索引)
     * [4. 空间数据索引](#4-空间数据索引)
@@ -17,16 +17,16 @@
     * [5. 覆盖索引](#5-覆盖索引)
   * [索引的优点](#索引的优点)
   * [索引的使用条件](#索引的使用条件)
-* [二、MySQL事务](#二MySQL事务)
+* [二、MySQL事务](#二mysql事务)
   * [重做日志 redo log](#重做日志-redo-log)
   * [回滚日志 undo log](#回滚日志-undo-log)
     * [insert undo log](#insert-undo-log)
     * [update undo log](#update-undo-log)
-  * [MVCC实现](#MVCC实现)
+  * [MVCC实现](#mvcc实现)
     * [undo log](#undo-log)
-    * [ReadView](#ReadView)
+    * [ReadView](#readview)
 * [三、查询性能优化](#三查询性能优化)
-  * [使用 Explain 进行分析](#使用-Explain-进行分析)
+  * [使用 Explain 进行分析](#使用-explain-进行分析)
   * [优化数据访问](#优化数据访问)
     * [1. 减少请求的数据量](#1-减少请求的数据量)
     * [2. 减少服务器端扫描的行数](#2-减少服务器端扫描的行数)
@@ -34,24 +34,24 @@
     * [1. 切分大查询](#1-切分大查询)
     * [2. 分解大连接查询](#2-分解大连接查询)
 * [四、存储引擎](#四存储引擎)
-  * [InnoDB](#InnoDB)
-  * [MyISAM](#MyISAM)
+  * [InnoDB](#innodb)
+  * [MyISAM](#myisam)
   * [比较](#比较)
 * [五、数据类型](#五数据类型)
   * [整型](#整型)
   * [浮点数](#浮点数)
   * [字符串](#字符串)
   * [时间和日期](#时间和日期)
-    * [1. DATETIME](#1-DATETIME)
-    * [2. TIMESTAMP](#2-TIMESTAMP)
+    * [1. DATETIME](#1-datetime)
+    * [2. TIMESTAMP](#2-timestamp)
 * [六、切分](#六切分)
   * [水平切分](#水平切分)
   * [垂直切分](#垂直切分)
-  * [Sharding 策略](#Sharding-策略)
-  * [Sharding 存在的问题](#Sharding-存在的问题)
+  * [Sharding 策略](#sharding-策略)
+  * [Sharding 存在的问题](#sharding-存在的问题)
     * [1. 事务问题](#1-事务问题)
     * [2. 连接](#2-连接)
-    * [3. ID 唯一性](#3-ID-唯一性)
+    * [3. ID 唯一性](#3-id-唯一性)
 * [七、复制](#七复制)
   * [主从复制](#主从复制)
   * [读写分离](#读写分离)
@@ -440,7 +440,7 @@ MySQL 提供了 FROM_UNIXTIME() 函数把 UNIX 时间戳转换为日期，并提
 
 当一个表的数据不断增多时，Sharding 是必然的选择，它可以将数据分布到集群的不同节点上，从而缓存单个数据库的压力。
 
-<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/63c2909f-0c5f-496f-9fe5-ee9176b31aba.jpg" width=""> </div><br>
+<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/63c2909f-0c5f-496f-9fe5-ee9176b31aba.jpg" width="300px"> </div><br>
 
 ## 垂直切分
 
@@ -448,7 +448,7 @@ MySQL 提供了 FROM_UNIXTIME() 函数把 UNIX 时间戳转换为日期，并提
 
 在数据库的层面使用垂直切分将按数据库中表的密集程度部署到不同的库中，例如将原来的电商数据库垂直切分成商品数据库、用户数据库等。
 
-<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/e130e5b8-b19a-4f1e-b860-223040525cf6.jpg" width=""> </div><br>
+<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/e130e5b8-b19a-4f1e-b860-223040525cf6.jpg" width="300px"> </div><br>
 
 ## Sharding 策略
 
@@ -482,7 +482,7 @@ MySQL 提供了 FROM_UNIXTIME() 函数把 UNIX 时间戳转换为日期，并提
 -  **I/O 线程** ：负责从主服务器上读取二进制日志，并写入从服务器的中继日志（Relay log）。
 -  **SQL 线程** ：负责读取中继日志，解析出主服务器已经执行的数据更改并在从服务器中重放（Replay）。
 
-<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/master-slave.png" width=""> </div><br>
+<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/master-slave.png" width="300px"> </div><br>
 
 ## 读写分离
 
@@ -496,7 +496,7 @@ MySQL 提供了 FROM_UNIXTIME() 函数把 UNIX 时间戳转换为日期，并提
 
 读写分离常用代理方式来实现，代理服务器接收应用层传来的读写请求，然后决定转发到哪个服务器。
 
-<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/master-slave-proxy.png" width=""> </div><br>
+<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/master-slave-proxy.png" width="350px"> </div><br>
 
 # 参考资料
 

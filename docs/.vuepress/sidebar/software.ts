@@ -21,15 +21,15 @@ export const alg = arraySidebar([
         children: [
             {
                 text: "算法",
-                link: "算法 - 目录.md"
+                link: "算法-目录.md"
             },
             {
                 text: "Leetcode",
-                link: "Leetcode 题解 - 目录.md"
+                link: "Leetcode 题解-目录.md"
             }
             , {
                 text: "剑指offer",
-                link: "剑指 Offer 题解 - 目录.md"
+                link: "剑指 Offer 题解-目录.md"
             }
         ]
     },
@@ -40,7 +40,7 @@ export const oop = arraySidebar([
         children: [
             "面向对象思想.md",
             "设计模式.md",
-            "设计模式 - 目录.md",
+            "设计模式-目录.md",
         ]
     },
 ])

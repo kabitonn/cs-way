@@ -8,7 +8,7 @@ export default sidebar({
     "/notes/操作系统": os,
     "/notes/网络": network,
 
-    "/notes/软件设计": software,
+    "/notes/系统设计": software,
     "/notes/算法": alg,
     "/notes/OOP": oop,
     "/notes/工程质量": softquality,

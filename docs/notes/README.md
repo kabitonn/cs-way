@@ -12,19 +12,19 @@ tag:
 
 # ✏️ 算法 
 
-- [剑指 Offer 题解](算法/剑指%20Offer%20题解%20-%20目录.md) 
-- [Leetcode 题解](算法/Leetcode%20题解%20-%20目录.md) 
-- [算法](算法/算法%20-%20目录.md)
+- [剑指 Offer 题解](算法/剑指Offer题解-目录.md) 
+- [Leetcode 题解](算法/Leetcode题解-目录.md) 
+- [算法](算法/算法-目录.md)
 - [后端面试进阶指南](https://xiaozhuanlan.com/CyC2018)
 
 # 💻 操作系统
 
-- [计算机操作系统](操作系统/计算机操作系统%20-%20目录.md) 
+- [计算机操作系统](操作系统/计算机操作系统-目录.md) 
 - [Linux](操作系统/Linux.md)
 
 # ☁️ 网络
 
-- [计算机网络](网络/计算机网络%20-%20目录.md) 
+- [计算机网络](网络/计算机网络-目录.md) 
 - [HTTP](网络/HTTP.md) 
 - [Socket](网络/Socket.md)
 - [Netty](网络/Netty.md)
@@ -32,28 +32,28 @@ tag:
 # 🎨 面向对象
 
 - [面向对象思想](OOP/面向对象思想.md)
-- [设计模式](OOP/设计模式%20-%20目录.md)
+- [设计模式](OOP/设计模式-目录.md)
 
 # 💾 数据库
 
 - [数据库系统原理](数据库/数据库系统原理.md) 
 - [SQL](数据库/SQL.md) 
-- [Leetcode-Database 题解](数据库/Leetcode-Database%20题解.md) 
+- [Leetcode-Database 题解](数据库/Leetcode-Database题解.md) 
 - [MySQL](数据库/MySQL.md) 
 - [Redis](数据库/Redis.md)
 
 # ☕️ Java 
 
-- [Java 基础](Java/Java%20基础.md) 
-- [Java 高级](Java/Java%20高级.md)
-- [Java 容器](Java/Java%20容器.md) 
-- [Java 并发基础](Java/Java%20并发基础.md) 
-- [Java 并发进阶](Java/Java%20并发进阶.md) 
-- [Java 虚拟机-内存管理](Java/Java%20虚拟机-内存管理.md) 
-- [Java 虚拟机-执行系统](Java/Java%20虚拟机-执行系统.md) 
-- [Java I/O](Java/Java%20IO.md)
-- [Java EE](Java/Java%20EE.md)
-- [Java 特性](Java/Java%20特性.md)
+- [Java 基础](Java/Java基础.md) 
+- [Java 高级](Java/Java高级.md)
+- [Java 容器](Java/Java容器.md) 
+- [Java 并发基础](Java/Java并发基础.md) 
+- [Java 并发进阶](Java/Java并发进阶.md) 
+- [Java 虚拟机-内存管理](Java/Java虚拟机-内存管理.md) 
+- [Java 虚拟机-执行系统](Java/Java虚拟机-执行系统.md) 
+- [Java I/O](Java/JavaIO.md)
+- [Java EE](Java/JavaEE.md)
+- [Java 特性](Java/Java特性.md)
 
 # 💡 系统设计
 
@@ -83,7 +83,7 @@ tag:
 - [Spring](框架/Spring.md)
 - [Spring MVC](框架/Spring-MVC.md)
 - [SpringBoot](框架/SpringBoot.md)
-- [PandoraBoot](框架/Pandora%20Boot.md)
+- [PandoraBoot](框架/PandoraBoot.md)
 - [Dubbo](框架/Dubbo.md)
 - [Zookeeper](框架/Zookeeper.md)
 - [RabbitMQ](框架/RabbitMQ.md)
