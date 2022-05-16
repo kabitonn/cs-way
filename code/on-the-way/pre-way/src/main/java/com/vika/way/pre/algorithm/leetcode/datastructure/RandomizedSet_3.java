@@ -1,0 +1,81 @@
+package com.vika.way.pre.algorithm.leetcode.datastructure;
+
+import java.util.*;
+
+/**
+ * 380. 常数时间插入、删除和获取随机元素
+ *
+ * @author tokabi
+ * @date 2019/11/1 12:04
+ */
+public class RandomizedSet_3 {
+
+    Map<Integer, Integer> indexValue;
+    Map<Integer, Integer> valueIndex;
+    List<Integer> absentList;
+    int size;
+
+    /**
+     * Initialize your data structure here.
+     */
+    public RandomizedSet_3() {
+        valueIndex = new HashMap<>();
+        indexValue = new HashMap<>();
+        absentList = new ArrayList<>();
+        size = 0;
+    }
+
+    /**
+     * Inserts a value to the set. Returns true if the set did not already contain the specified element.
+     */
+    public boolean insert(int val) {
+        if (valueIndex.containsKey(val)) {
+            return false;
+        }
+        Integer index = absentList.size() != 0 ? absentList.get(0) : null;
+        if (index == null) {
+            size++;
+            index = size;
+        } else {
+            absentList.remove(0);
+        }
+        valueIndex.put(val, index);
+        indexValue.put(index, val);
+        return true;
+    }
+
+    /**
+     * Removes a value from the set. Returns true if the set contained the specified element.
+     */
+    public boolean remove(int val) {
+        if (!valueIndex.containsKey(val)) {
+            return false;
+        }
+        int index = valueIndex.remove(val);
+        indexValue.remove(index);
+        absentList.add(index);
+        return true;
+    }
+
+    /**
+     * Get a random element from the set.
+     */
+    public int getRandom() {
+        int randomIndex;
+        while (true) {
+            randomIndex = new Random().nextInt(size) + 1;
+            if (indexValue.containsKey(randomIndex)) {
+                break;
+            }
+        }
+        return indexValue.get(randomIndex);
+    }
+}
+
+/**
+ * Your RandomizedSet object will be instantiated and called as such:
+ * RandomizedSet obj = new RandomizedSet();
+ * boolean param_1 = obj.insert(val);
+ * boolean param_2 = obj.remove(val);
+ * int param_3 = obj.getRandom();
+ */

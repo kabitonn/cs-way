@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.vika.way.srpc.provider.RpcProviderAutoConfiguration,\
+com.vika.way.srpc.consumer.RpcConsumerAutoConfiguration

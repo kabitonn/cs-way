@@ -1,0 +1,123 @@
+// 在线面试平台。将链接分享给你的朋友以加入相同的房间。
+// Author: tdzl2003<dengyun@meideng.net>
+
+
+
+
+1.对于一棵满二叉排序树深度为K，节点数为 2^K - 1 ；节点值为 1至 (2^K-1)。
+给出K和任意三个节点的值，输出包含该三个节点的最小子树的根节点值
+样例输入：k =4 节点：10 15 13
+样例输出：12
+
+#            8
+#        /       \
+#     4          12
+#   /   \       /   \
+#  2     6     10    14
+# / \   / \   /  \  /  \
+#1   3 5   7 9   11 13  15
+
+
+public int minRoot(int k,int p1,int p2,int p3){
+  if(k<=0){
+  	return 0;
+  }
+	int r=(int)Math.pow(2,k-1);
+  int size = r/2;
+  while(true){
+  	if(p1<r&&p2<r&&p3<r){
+      r=r-size;
+    }else if(p1>r&&p2>r&&p3>r){
+    	r=r+size;
+    }else{
+      break;
+  	}
+    size/=2;
+  }
+  return r;
+}
+
+
+2.实现一个基于Hash的全内存LRU cache，插入时，发现节点个数超过阈值，则按照全局最近最少使用淘汰节点。
+采用链地址法解决Hash冲突：Hash桶个数固定为1千万，最多只能存储1亿个的节点，每个节点的key和value都为uint32_t。
+
+
+Struct Node｛
+   uint32_t iKey;
+   uint32_t iElem;
+   其它字段 ...
+};
+
+请分别实现Insert，Get接口。
+
+public class LruCache{
+
+}
+
+
+
+
+3.逐行打印n * n回型矩阵（ 不可以在内存填好整个矩阵然后再打印）
+
+n=3
+1 2 3
+8 9 4
+7 6 5
+
+n=4
+1 2 3 4
+12 13 14 5
+11 16 15 6
+10 9 8 7
+
+public void Print(int n){
+  int[][] matrix=new int[n][n];
+  int num=1;
+  int l=0,r=n-1;
+  int t=0,b=n-1;
+  while(num<=n*n){
+    for(int j=l;j<=r;j++){
+    	matrix[t][j]=num++;
+    }
+    t++;
+    for(int i=t;i<=b;i++){
+    	matrix[i][r]=num++;
+    }
+    r--;
+    for(int j=r;j>=l;j--){
+    	matrix[b][j]=num++;
+    }
+    b--;
+    for(int i=b;i>=t;i--){
+    	matrix[i][l]=num++;
+    }
+    l++;
+  }
+  for(int i=0;i<n;i++){
+  	for(int j=0;j<n;j++){
+    	System.out.print(matrix[i][j]+" ");
+    }
+    System.out.println();
+  }
+}
+
+
+
+
+4、工行有30万个员工，其工卡号码分别是1~30万，在接下来的某天他们将举行年会，需要抽出10万个员工发奖品。
+   我们有一个随机数生成函数rand()能够生成0~65535的整数，请写一个公平的抽奖程序，输出这10万个员工的工卡号码。
+   注：直接在这里写代码，要求使用C++实现完整的代码
+
+
+   public int slefRand(){
+     int g = rand();
+     int s = rand();
+     while(g>60000){
+     	g = rand();
+     }
+     while(s>50000){
+       s=rand();
+     }
+     return g/10000*50000+s;
+   }
+
