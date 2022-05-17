@@ -1,5 +1,17 @@
-<!-- GFM-TOC -->
+---
+title: VsCode
+icon:
+category: 工具
+tag:
+  - VsCode
+---
 
+
+<!-- GFM-TOC -->
+* [开发效率](#开发效率)
+  * [常用插件](#常用插件)
+  * [常用配置](#常用配置)
+    * [Paste Image 配置](#paste-image-配置)
 <!-- GFM-TOC -->
 
 # 开发效率

@@ -1,13 +1,22 @@
+---
+title: RabbitMQ
+icon:
+category: 框架
+tag:
+  - RabbitMQ
+  - 消息队列
+---
+
 <!-- GFM-TOC -->
-* [RabbitMQ 介绍](#RabbitMQ-介绍)
+* [RabbitMQ 介绍](#rabbitmq-介绍)
   * [简介](#简介)
   * [核心概念](#核心概念)
-    * [Producer(生产者) 和 Consumer(消费者)](#Producer生产者-和-Consumer消费者)
-    * [Exchange(交换器)](#Exchange交换器)
-    * [Queue(消息队列)](#Queue消息队列)
-    * [Broker（消息中间件的服务节点）](#Broker消息中间件的服务节点)
-    * [Exchange Types(交换器类型)](#Exchange-Types交换器类型)
-* [RabbitMQ 使用](#RabbitMQ-使用)
+    * [Producer(生产者) 和 Consumer(消费者)](#producer生产者-和-consumer消费者)
+    * [Exchange(交换器)](#exchange交换器)
+    * [Queue(消息队列)](#queue消息队列)
+    * [Broker（消息中间件的服务节点）](#broker消息中间件的服务节点)
+    * [Exchange Types(交换器类型)](#exchange-types交换器类型)
+* [RabbitMQ 使用](#rabbitmq-使用)
 <!-- GFM-TOC -->
 
 # RabbitMQ 介绍

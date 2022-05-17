@@ -1,17 +1,26 @@
+---
+title: IDEA
+icon:
+category: 工具
+tag:
+  - IDEA
+  - 开发工具
+---
+
 <!-- GFM-TOC -->
 * [开发效率](#开发效率)
   * [常用快捷键](#常用快捷键)
   * [常用插件](#常用插件)
 * [问题及配置](#问题及配置)
   * [默认配置](#默认配置)
-    * [File-->Other Settings-->Preferences for New Projects](#File--Other-Settings--Preferences-for-New-Projects)
-    * [File-->Other Settings-->Structure for New Projects](#File--Other-Settings--Structure-for-New-Projects)
+    * [File-->Other Settings-->Preferences for New Projects](#file--other-settings--preferences-for-new-projects)
+    * [File-->Other Settings-->Structure for New Projects](#file--other-settings--structure-for-new-projects)
   * [常见配置](#常见配置)
     * [自动导入引用类所在包配置](#自动导入引用类所在包配置)
     * [内存使用量展示](#内存使用量展示)
     * [悬浮提示](#悬浮提示)
-    * [Ctrl+鼠标滚轴修改字体大小](#Ctrl鼠标滚轴修改字体大小)
-    * [显示多行Tab](#显示多行Tab)
+    * [Ctrl+鼠标滚轴修改字体大小](#ctrl鼠标滚轴修改字体大小)
+    * [显示多行Tab](#显示多行tab)
     * [显示行号和方法分隔符](#显示行号和方法分隔符)
     * [文档注释](#文档注释)
     * [文件模板配置](#文件模板配置)
@@ -19,7 +28,7 @@
     * [leetcode 插件配置](#leetcode-插件配置)
   * [常见问题](#常见问题)
     * [编译器语言版本](#编译器语言版本)
-    * [MapStruct 注解不识别](#MapStruct-注解不识别)
+    * [MapStruct 注解不识别](#mapstruct-注解不识别)
 <!-- GFM-TOC -->
 
 

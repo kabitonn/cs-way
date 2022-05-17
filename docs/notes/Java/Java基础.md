@@ -1,3 +1,10 @@
+---
+title: Java基础
+icon:
+category: Java
+tag:
+  - String
+---
 <!-- GFM-TOC -->
 * [一、数据类型](#一数据类型)
   * [基本类型](#基本类型)

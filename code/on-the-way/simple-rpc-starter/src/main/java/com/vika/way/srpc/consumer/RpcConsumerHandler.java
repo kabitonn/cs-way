@@ -14,8 +14,6 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import lombok.extern.slf4j.Slf4j;
 
-import java.lang.reflect.Proxy;
-
 /**
  * RPC消费者
  *
@@ -23,7 +21,7 @@ import java.lang.reflect.Proxy;
  * @date 2022/5/12
  **/
 @Slf4j
-public class RpcConsumer extends SimpleChannelInboundHandler<RpcResponse> {
+public class RpcConsumerHandler extends SimpleChannelInboundHandler<RpcResponse> {
 
     private final Object obj = new Object();
     private ServiceRegistry serviceRegistry;
@@ -31,7 +29,7 @@ public class RpcConsumer extends SimpleChannelInboundHandler<RpcResponse> {
     private Channel channel;
     private RpcResponse rpcResponse;
 
-    public RpcConsumer(ServiceRegistry serviceRegistry) {
+    public RpcConsumerHandler(ServiceRegistry serviceRegistry) {
         this.serviceRegistry = serviceRegistry;
     }
 
@@ -46,7 +44,7 @@ public class RpcConsumer extends SimpleChannelInboundHandler<RpcResponse> {
                             socketChannel.pipeline()
                                     .addLast(new RpcEncoder())
                                     .addLast(new RpcDecoder())
-                                    .addLast(RpcConsumer.this);
+                                    .addLast(RpcConsumerHandler.this);
                         }
                     });
             String targetService = ProviderUtils.makeKey(rpcRequest.getClassName(), rpcRequest.getServiceVersion());

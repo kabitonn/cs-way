@@ -1,3 +1,11 @@
+---
+title: Redis
+icon:
+category: 数据库
+tag:
+  - Redis
+---
+
 <!-- GFM-TOC -->
 * [一、概述](#一概述)
 * [二、数据类型](#二数据类型)

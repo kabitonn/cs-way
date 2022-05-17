@@ -1,3 +1,11 @@
+---
+title: LeetCode数据库题解
+icon:
+category: 数据库
+tag:
+  - leetcode
+  - 数据库题解
+---
 <!-- GFM-TOC -->
 * [595. Big Countries](#595-big-countries)
   * [Description](#description)

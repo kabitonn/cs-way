@@ -1,25 +1,34 @@
+---
+title: Zookeeper
+icon:
+category: 框架
+tag:
+  - Zookeeper
+  - 注册中心
+---
+
 <!-- GFM-TOC -->
-* [Zookeeper 介绍](#Zookeeper-介绍)
-  * [ZooKeeper 的由来](#ZooKeeper-的由来)
-  * [ZooKeeper 概览](#ZooKeeper-概览)
-* [ZooKeeper 的重要概念](#ZooKeeper-的重要概念)
+* [Zookeeper 介绍](#zookeeper-介绍)
+  * [ZooKeeper 的由来](#zookeeper-的由来)
+  * [ZooKeeper 概览](#zookeeper-概览)
+* [ZooKeeper 的重要概念](#zookeeper-的重要概念)
   * [总结](#总结)
-  * [会话（Session）](#会话Session)
-  * [Znode](#Znode)
+  * [会话（Session）](#会话session)
+  * [Znode](#znode)
   * [版本](#版本)
-  * [Watcher](#Watcher)
-  * [ACL](#ACL)
-* [ZooKeeper 特点](#ZooKeeper-特点)
-* [ZooKeeper 设计目标](#ZooKeeper-设计目标)
+  * [Watcher](#watcher)
+  * [ACL](#acl)
+* [ZooKeeper 特点](#zookeeper-特点)
+* [ZooKeeper 设计目标](#zookeeper-设计目标)
   * [简单的数据模型](#简单的数据模型)
   * [可构建集群](#可构建集群)
   * [顺序访问](#顺序访问)
   * [高性能](#高性能)
-* [ZooKeeper 集群角色介绍](#ZooKeeper-集群角色介绍)
-* [ZooKeeper & ZAB协议 & Paxos算法](#ZooKeeper--ZAB协议--Paxos算法)
-  * [ZAB协议 & Paxos算法](#ZAB协议--Paxos算法)
-  * [ZAB 协议介绍](#ZAB-协议介绍)
-  * [ZAB 协议两种基本的模式：崩溃恢复和消息广播](#ZAB-协议两种基本的模式崩溃恢复和消息广播)
+* [ZooKeeper 集群角色介绍](#zookeeper-集群角色介绍)
+* [ZooKeeper & ZAB协议 & Paxos算法](#zookeeper--zab协议--paxos算法)
+  * [ZAB协议 & Paxos算法](#zab协议--paxos算法)
+  * [ZAB 协议介绍](#zab-协议介绍)
+  * [ZAB 协议两种基本的模式：崩溃恢复和消息广播](#zab-协议两种基本的模式崩溃恢复和消息广播)
 <!-- GFM-TOC -->
 
 # Zookeeper 介绍

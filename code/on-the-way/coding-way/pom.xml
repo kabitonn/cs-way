@@ -9,24 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>simple-rpc-provider</artifactId>
+    <groupId>com.vika.way</groupId>
+    <artifactId>coding-way</artifactId>
     <version>${inner.module.version}</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.vika.onway</groupId>
-            <artifactId>simple-rpc-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.vika.onway</groupId>
-            <artifactId>simple-rpc-provider-client</artifactId>
-        </dependency>
-
-    </dependencies>
 
 </project>

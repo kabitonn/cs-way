@@ -1,3 +1,11 @@
+---
+title: JavaIO
+icon:
+category: Java
+tag:
+  - IO
+  - NIO
+---
 <!-- GFM-TOC -->
 * [一、概览](#一概览)
   * [分类说明](#分类说明)
@@ -5,27 +13,27 @@
     * [操作对象分类结构](#操作对象分类结构)
     * [其他类](#其他类)
 * [二、磁盘操作](#二磁盘操作)
-  * [File](#File)
-  * [Path](#Path)
-  * [Files](#Files)
+  * [File](#file)
+  * [Path](#path)
+  * [Files](#files)
 * [三、字节操作](#三字节操作)
   * [实现文件复制](#实现文件复制)
   * [装饰者模式](#装饰者模式)
 * [四、字符操作](#四字符操作)
   * [编码与解码](#编码与解码)
-  * [String 的编码方式](#String-的编码方式)
-  * [Reader 与 Writer](#Reader-与-Writer)
+  * [String 的编码方式](#string-的编码方式)
+  * [Reader 与 Writer](#reader-与-writer)
   * [实现逐行输出文本文件的内容](#实现逐行输出文本文件的内容)
 * [五、对象操作](#五对象操作)
   * [序列化](#序列化)
-  * [Serializable](#Serializable)
+  * [Serializable](#serializable)
   * [transient](#transient)
 * [六、网络操作](#六网络操作)
-  * [InetAddress](#InetAddress)
-  * [URL](#URL)
-  * [Sockets](#Sockets)
-  * [Datagram](#Datagram)
-* [七、NIO](#七NIO)
+  * [InetAddress](#inetaddress)
+  * [URL](#url)
+  * [Sockets](#sockets)
+  * [Datagram](#datagram)
+* [七、NIO](#七nio)
   * [流与块](#流与块)
   * [通道](#通道)
   * [缓冲区](#缓冲区)
@@ -36,15 +44,15 @@
     * [3. 监听事件](#3-监听事件)
     * [4. 获取到达的事件](#4-获取到达的事件)
     * [5. 事件循环](#5-事件循环)
-  * [文件 NIO 实例](#文件-NIO-实例)
-  * [套接字 NIO 实例](#套接字-NIO-实例)
+  * [文件 NIO 实例](#文件-nio-实例)
+  * [套接字 NIO 实例](#套接字-nio-实例)
   * [其他实例](#其他实例)
-  * [Scatter / Gather](#Scatter--Gather)
+  * [Scatter / Gather](#scatter--gather)
   * [内存映射文件](#内存映射文件)
-* [BIO,NIO,AIO](#BIONIOAIO)
-  * [BIO(Blocking I/O)](#BIOBlocking-IO)
-  * [NIO(Non-blocking I/O)](#NIONon-blocking-IO)
-  * [AIO(Asynchronous I/O)](#AIOAsynchronous-IO)
+* [BIO,NIO,AIO](#bionioaio)
+  * [BIO(Blocking I/O)](#bioblocking-io)
+  * [NIO(Non-blocking I/O)](#nionon-blocking-io)
+  * [AIO(Asynchronous I/O)](#aioasynchronous-io)
 * [八、参考资料](#八参考资料)
 <!-- GFM-TOC -->
 

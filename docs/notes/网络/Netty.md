@@ -1,6 +1,14 @@
+---
+title: netty
+icon:
+category: 网络
+tag:
+  - netty
+  - Java
+---
 <!-- GFM-TOC  -->
 * [介绍](#介绍)
-  * [Netty优势](#Netty优势)
+  * [Netty优势](#netty优势)
   * [核心组件](#核心组件)
   * [线程模型](#线程模型)
 <!-- GFM-TOC  -->

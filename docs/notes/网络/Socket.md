@@ -1,3 +1,11 @@
+---
+title: Socket
+icon:
+category: 网络
+tag:
+  - socket
+  - epoll
+---
 <!-- GFM-TOC -->
 * [一、I/O 模型](#一io-模型)
   * [阻塞式 I/O](#阻塞式-io)

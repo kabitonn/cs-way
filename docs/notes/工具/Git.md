@@ -1,15 +1,24 @@
+---
+title: Git
+icon:
+category: 工具
+tag:
+  - 版本管理
+  - Git
+---
+
 <!-- GFM-TOC -->
 * [集中式与分布式](#集中式与分布式)
 * [中心服务器](#中心服务器)
 * [工作流](#工作流)
 * [分支实现](#分支实现)
 * [冲突](#冲突)
-* [Fast forward](#Fast-forward)
+* [Fast forward](#fast-forward)
 * [分支管理策略](#分支管理策略)
-* [储藏（Stashing）](#储藏Stashing)
-* [SSH 传输设置](#SSH-传输设置)
+* [储藏（Stashing）](#储藏stashing)
+* [SSH 传输设置](#ssh-传输设置)
 * [.gitignore 文件](#gitignore-文件)
-* [Git 命令一览](#Git-命令一览)
+* [Git 命令一览](#git-命令一览)
   * [git常用命令](#git常用命令)
 * [参考资料](#参考资料)
 <!-- GFM-TOC -->

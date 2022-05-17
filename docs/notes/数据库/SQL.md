@@ -1,6 +1,9 @@
 ---
-icon: 
 title: SQL
+icon:
+category: 数据库
+tag:
+  - SQL
 ---
 
 

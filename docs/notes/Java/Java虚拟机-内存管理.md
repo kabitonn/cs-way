@@ -1,7 +1,15 @@
+---
+title: Java虚拟机内存管理
+icon:
+category: Java
+tag:
+  - JVM
+  - GC
+---
 <!-- GFM-TOC -->
 * [一、运行时数据区域](#一运行时数据区域)
   * [程序计数器](#程序计数器)
-  * [Java 虚拟机栈](#Java-虚拟机栈)
+  * [Java 虚拟机栈](#java-虚拟机栈)
   * [本地方法栈](#本地方法栈)
   * [堆](#堆)
   * [方法区](#方法区)
@@ -33,27 +41,27 @@
     * [3. 复制](#3-复制)
     * [4. 分代收集](#4-分代收集)
   * [垃圾收集器](#垃圾收集器)
-    * [1. Serial 收集器](#1-Serial-收集器)
-    * [2. ParNew 收集器](#2-ParNew-收集器)
-    * [3. Parallel Scavenge 收集器](#3-Parallel-Scavenge-收集器)
-    * [4. Serial Old 收集器](#4-Serial-Old-收集器)
-    * [5. Parallel Old 收集器](#5-Parallel-Old-收集器)
-    * [6. CMS 收集器](#6-CMS-收集器)
-    * [7. G1 收集器](#7-G1-收集器)
+    * [1. Serial 收集器](#1-serial-收集器)
+    * [2. ParNew 收集器](#2-parnew-收集器)
+    * [3. Parallel Scavenge 收集器](#3-parallel-scavenge-收集器)
+    * [4. Serial Old 收集器](#4-serial-old-收集器)
+    * [5. Parallel Old 收集器](#5-parallel-old-收集器)
+    * [6. CMS 收集器](#6-cms-收集器)
+    * [7. G1 收集器](#7-g1-收集器)
 * [四、内存分配与回收策略](#四内存分配与回收策略)
   * [内存分配策略](#内存分配策略)
-    * [1. 对象优先在 Eden 分配](#1-对象优先在-Eden-分配)
+    * [1. 对象优先在 Eden 分配](#1-对象优先在-eden-分配)
     * [2. 大对象直接进入老年代](#2-大对象直接进入老年代)
     * [3. 长期存活的对象进入老年代](#3-长期存活的对象进入老年代)
     * [4. 动态对象年龄判定](#4-动态对象年龄判定)
     * [5. 空间分配担保](#5-空间分配担保)
-  * [Minor GC 和 Full GC](#Minor-GC-和-Full-GC)
-  * [Full GC 的触发条件](#Full-GC-的触发条件)
-    * [1. 调用 System.gc()](#1-调用-Systemgc)
+  * [Minor GC 和 Full GC](#minor-gc-和-full-gc)
+  * [Full GC 的触发条件](#full-gc-的触发条件)
+    * [1. 调用 System.gc()](#1-调用-systemgc)
     * [2. 老年代空间不足](#2-老年代空间不足)
     * [3. 空间分配担保失败](#3-空间分配担保失败)
-    * [4. JDK 1.7 及以前的永久代空间不足](#4-JDK-17-及以前的永久代空间不足)
-    * [5. Concurrent Mode Failure](#5-Concurrent-Mode-Failure)
+    * [4. JDK 1.7 及以前的永久代空间不足](#4-jdk-17-及以前的永久代空间不足)
+    * [5. Concurrent Mode Failure](#5-concurrent-mode-failure)
 * [参考资料](#参考资料)
 <!-- GFM-TOC -->
 

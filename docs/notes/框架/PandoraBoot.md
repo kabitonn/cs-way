@@ -1,6 +1,15 @@
+---
+title: PandoraBoot
+icon:
+category: 框架
+tag:
+  - boot
+  - Pandora
+---
+
 <!-- GFM-TOC -->
-* [Pandora Boot](#Pandora-Boot)
-  * [Pandora介绍](#Pandora介绍)
+* [Pandora Boot](#pandora-boot)
+  * [Pandora介绍](#pandora介绍)
     * [功能](#功能)
     * [用途](#用途)
     * [架构](#架构)

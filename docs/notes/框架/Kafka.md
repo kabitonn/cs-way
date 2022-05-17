@@ -1,23 +1,32 @@
+---
+title: Kafka
+icon:
+category: 框架
+tag:
+  - kafka
+  - 消息队列
+---
+
 <!-- GFM-TOC -->
-* [Kafka 介绍](#Kafka-介绍)
-  * [Kafka 简介](#Kafka-简介)
-  * [Kafka 核心概念](#Kafka-核心概念)
+* [Kafka 介绍](#kafka-介绍)
+  * [Kafka 简介](#kafka-简介)
+  * [Kafka 核心概念](#kafka-核心概念)
     * [生产者与消费者](#生产者与消费者)
-    * [主题(Topic) 和 分区(Partition)](#主题Topic-和-分区Partition)
-    * [Broker 和 Cluster](#Broker-和-Cluster)
+    * [主题(Topic) 和 分区(Partition)](#主题topic-和-分区partition)
+    * [Broker 和 Cluster](#broker-和-cluster)
     * [多集群](#多集群)
-* [Kafka 设计与实现](#Kafka-设计与实现)
-  * [Kafka 架构](#Kafka-架构)
-  * [Kafka 文件系统作为存储](#Kafka-文件系统作为存储)
+* [Kafka 设计与实现](#kafka-设计与实现)
+  * [Kafka 架构](#kafka-架构)
+  * [Kafka 文件系统作为存储](#kafka-文件系统作为存储)
     * [底层存储设计](#底层存储设计)
   * [生产者设计](#生产者设计)
   * [消费者设计](#消费者设计)
     * [消费者和消费者组](#消费者和消费者组)
     * [消费者组与分区重平衡](#消费者组与分区重平衡)
-    * [Partition 与消费模型](#Partition-与消费模型)
+    * [Partition 与消费模型](#partition-与消费模型)
     * [消费者的 pull 模型](#消费者的-pull-模型)
-  * [Kafka 可靠性](#Kafka-可靠性)
-* [对比RocketMQ](#对比RocketMQ)
+  * [Kafka 可靠性](#kafka-可靠性)
+* [对比RocketMQ](#对比rocketmq)
   * [消息消费](#消息消费)
     * [消息投递实时性](#消息投递实时性)
     * [消费失败重试](#消费失败重试)

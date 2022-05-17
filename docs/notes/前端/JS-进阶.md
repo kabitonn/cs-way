@@ -1,11 +1,18 @@
+---
+title: JS进阶
+icon:
+category: 前端
+tag:
+  - JavaScript
+---
 <!-- GFM-TOC -->
-* [JQuery 介绍](#JQuery-介绍)
-  * [JQuery 简介](#JQuery-简介)
-  * [JQuery 核心](#JQuery-核心)
-    * [JQuery 核心对象](#JQuery-核心对象)
-    * [JQuery 对象](#JQuery-对象)
+* [JQuery 介绍](#jquery-介绍)
+  * [JQuery 简介](#jquery-简介)
+  * [JQuery 核心](#jquery-核心)
+    * [JQuery 核心对象](#jquery-核心对象)
+    * [JQuery 对象](#jquery-对象)
     * [注意点](#注意点)
-* [JQuery 使用](#JQuery-使用)
+* [JQuery 使用](#jquery-使用)
   * [选择器](#选择器)
     * [基本选择器](#基本选择器)
     * [层叠选择器](#层叠选择器)
@@ -27,15 +34,15 @@
     * [事件说明](#事件说明)
     * [动态事件绑定](#动态事件绑定)
     * [解除事件绑定](#解除事件绑定)
-* [Ajax](#Ajax)
-  * [Ajax 简介](#Ajax-简介)
-  * [Ajax 工作原理](#Ajax-工作原理)
-  * [Ajax 使用](#Ajax-使用)
-    * [原生 Ajax使用](#原生-Ajax使用)
-    * [JQuery中的Ajax](#JQuery中的Ajax)
-* [Axios](#Axios)
+* [Ajax](#ajax)
+  * [Ajax 简介](#ajax-简介)
+  * [Ajax 工作原理](#ajax-工作原理)
+  * [Ajax 使用](#ajax-使用)
+    * [原生 Ajax使用](#原生-ajax使用)
+    * [JQuery中的Ajax](#jquery中的ajax)
+* [Axios](#axios)
   * [axios 简介](#axios-简介)
-  * [axios API](#axios-API)
+  * [axios API](#axios-api)
     * [请求方法别名](#请求方法别名)
     * [并发请求](#并发请求)
     * [请求配置](#请求配置)

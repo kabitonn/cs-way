@@ -1,26 +1,34 @@
+---
+title: SpringMVC
+icon:
+category: 框架
+tag:
+  - spring
+  - mvc
+---
 <!-- GFM-TOC --> 
-* [Spring MVC 介绍](#Spring-MVC-介绍)
-  * [MVC模式](#MVC模式)
-    * [MVC的好处](#MVC的好处)
-    * [MVC模式在Web中应用](#MVC模式在Web中应用)
-  * [Spring MVC](#Spring-MVC)
-    * [SpringMVC 特点](#SpringMVC-特点)
-    * [对比 Struts2](#对比-Struts2)
-* [Spring MVC请求响应过程](#Spring-MVC请求响应过程)
-  * [Spring MVC组件](#Spring-MVC组件)
-    * [DispatcherServlet 前端控制器](#DispatcherServlet-前端控制器)
-    * [HandlerMapping 处理器映射器](#HandlerMapping-处理器映射器)
-    * [HandlerAdapter 处理器适配器](#HandlerAdapter-处理器适配器)
-    * [Handler 处理器](#Handler-处理器)
-    * [ViewResolver 视图解析器](#ViewResolver-视图解析器)
-    * [View 视图](#View-视图)
-  * [Spring MVC工作详解](#Spring-MVC工作详解)
-    * [处理器映射 HandlerMapping](#处理器映射-HandlerMapping)
-    * [处理器适配器 HandlerAdapter](#处理器适配器-HandlerAdapter)
-    * [参数解析 HandlerAdapter Handler](#参数解析-HandlerAdapter-Handler)
-    * [视图解析 View & ViewResolver](#视图解析-View--ViewResolver)
+* [Spring MVC 介绍](#spring-mvc-介绍)
+  * [MVC模式](#mvc模式)
+    * [MVC的好处](#mvc的好处)
+    * [MVC模式在Web中应用](#mvc模式在web中应用)
+  * [Spring MVC](#spring-mvc)
+    * [SpringMVC 特点](#springmvc-特点)
+    * [对比 Struts2](#对比-struts2)
+* [Spring MVC请求响应过程](#spring-mvc请求响应过程)
+  * [Spring MVC组件](#spring-mvc组件)
+    * [DispatcherServlet 前端控制器](#dispatcherservlet-前端控制器)
+    * [HandlerMapping 处理器映射器](#handlermapping-处理器映射器)
+    * [HandlerAdapter 处理器适配器](#handleradapter-处理器适配器)
+    * [Handler 处理器](#handler-处理器)
+    * [ViewResolver 视图解析器](#viewresolver-视图解析器)
+    * [View 视图](#view-视图)
+  * [Spring MVC工作详解](#spring-mvc工作详解)
+    * [处理器映射 HandlerMapping](#处理器映射-handlermapping)
+    * [处理器适配器 HandlerAdapter](#处理器适配器-handleradapter)
+    * [参数解析 HandlerAdapter Handler](#参数解析-handleradapter-handler)
+    * [视图解析 View & ViewResolver](#视图解析-view--viewresolver)
     * [标签 `<mvc:annotation-driven/>`](#标签-mvcannotation-driven)
-* [Spring MVC 注解](#Spring-MVC-注解)
+* [Spring MVC 注解](#spring-mvc-注解)
 <!-- GFM-TOC --> 
 
 # Spring MVC 介绍

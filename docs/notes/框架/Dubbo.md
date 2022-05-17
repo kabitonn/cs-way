@@ -1,22 +1,31 @@
+---
+title: Dubbo
+icon:
+category: 框架
+tag:
+  - rpc
+  - Dubbo
+---
+
 <!-- GFM-TOC -->
-* [Dubbo 介绍](#Dubbo-介绍)
+* [Dubbo 介绍](#dubbo-介绍)
   * [简介](#简介)
-  * [RPC](#RPC)
-    * [常见的 RPC 框架](#常见的-RPC-框架)
-    * [RPC HTTP](#RPC-HTTP)
-  * [Dubbo 的产生](#Dubbo-的产生)
-    * [Dubbo的背景](#Dubbo的背景)
-    * [Dubbo的需求](#Dubbo的需求)
+  * [RPC](#rpc)
+    * [常见的 RPC 框架](#常见的-rpc-框架)
+    * [RPC HTTP](#rpc-http)
+  * [Dubbo 的产生](#dubbo-的产生)
+    * [Dubbo的背景](#dubbo的背景)
+    * [Dubbo的需求](#dubbo的需求)
   * [分布式](#分布式)
-* [Dubbo 架构](#Dubbo-架构)
-  * [Dubbo 架构图解](#Dubbo-架构图解)
-  * [Dubbo 架构特点](#Dubbo-架构特点)
-  * [Dubbo 框架设计](#Dubbo-框架设计)
-* [Dubbo 的使用](#Dubbo-的使用)
-  * [Dubbo 的注册中心](#Dubbo-的注册中心)
-  * [Dubbo 的负载均衡](#Dubbo-的负载均衡)
+* [Dubbo 架构](#dubbo-架构)
+  * [Dubbo 架构图解](#dubbo-架构图解)
+  * [Dubbo 架构特点](#dubbo-架构特点)
+  * [Dubbo 框架设计](#dubbo-框架设计)
+* [Dubbo 的使用](#dubbo-的使用)
+  * [Dubbo 的注册中心](#dubbo-的注册中心)
+  * [Dubbo 的负载均衡](#dubbo-的负载均衡)
     * [负载均衡](#负载均衡)
-    * [Dubbo 的负载均衡策略](#Dubbo-的负载均衡策略)
+    * [Dubbo 的负载均衡策略](#dubbo-的负载均衡策略)
     * [配置方式](#配置方式)
 <!-- GFM-TOC -->
 

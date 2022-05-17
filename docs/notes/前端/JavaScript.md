@@ -1,7 +1,14 @@
+---
+title: JavaScript
+icon:
+category: 前端
+tag:
+  - JavaScript
+---
 <!-- GFM-TOC -->
-* [JavaScript](#JavaScript)
-  * [JavaScript 简介](#JavaScript-简介)
-* [JavaScript 语法](#JavaScript-语法)
+* [JavaScript](#javascript)
+  * [JavaScript 简介](#javascript-简介)
+* [JavaScript 语法](#javascript-语法)
   * [基础语法](#基础语法)
     * [变量](#变量)
     * [数据类型](#数据类型)
@@ -17,19 +24,19 @@
     * [原型和原型链](#原型和原型链)
     * [继承](#继承)
   * [正则表达式](#正则表达式)
-* [JavaScript DOM](#JavaScript-DOM)
+* [JavaScript DOM](#javascript-dom)
   * [简介](#简介)
   * [节点树](#节点树)
     * [节点类型及属性](#节点类型及属性)
-    * [文档节点(Document对象)](#文档节点Document对象)
-    * [元素节点(Element对象)](#元素节点Element对象)
-    * [属性节点(Attr对象)](#属性节点Attr对象)
-    * [文本节点(Text)](#文本节点Text)
+    * [文档节点(Document对象)](#文档节点document对象)
+    * [元素节点(Element对象)](#元素节点element对象)
+    * [属性节点(Attr对象)](#属性节点attr对象)
+    * [文本节点(Text)](#文本节点text)
   * [事件](#事件)
     * [事件流](#事件流)
     * [事件处理程序](#事件处理程序)
     * [事件处理函数](#事件处理函数)
-* [JavaScript BOM](#JavaScript-BOM)
+* [JavaScript BOM](#javascript-bom)
   * [window 对象](#window-对象)
   * [其他对象](#其他对象)
     * [frames](#frames)
@@ -37,7 +44,7 @@
     * [location](#location)
     * [screen](#screen)
     * [navigator](#navigator)
-* [JavaScript 使用](#JavaScript-使用)
+* [JavaScript 使用](#javascript-使用)
 <!-- GFM-TOC -->
 
 

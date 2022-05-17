@@ -1,3 +1,10 @@
+---
+title: MySQL
+icon:
+category: 数据库
+tag:
+  - MySQL
+---
 <!-- GFM-TOC -->
 * [一、索引](#一索引)
   * [B+ Tree 原理](#b-tree-原理)

@@ -48,8 +48,8 @@ public class RpcInvokeHandler<T> implements InvocationHandler {
             log.debug(args[i].toString());
         }
 
-        RpcConsumer rpcConsumer = new RpcConsumer(this.serviceRegistry);
-        RpcResponse rpcResponse = rpcConsumer.sendRequest(request);
+        RpcConsumerHandler rpcConsumerHandler = new RpcConsumerHandler(this.serviceRegistry);
+        RpcResponse rpcResponse = rpcConsumerHandler.sendRequest(request);
         if (rpcResponse != null) {
             log.debug("consumer receive provider rpc response: {}", rpcResponse.toString());
             return rpcResponse.getResult();

@@ -1,3 +1,11 @@
+---
+title: Java并发基础
+icon:
+category: Java
+tag:
+  - 并发
+  - 内存模型
+---
 <!-- GFM-TOC --> 
 * [一、线程](#一线程)
   * [线程简介](#线程简介)

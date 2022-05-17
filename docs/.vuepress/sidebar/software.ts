@@ -4,13 +4,13 @@ export const software = arraySidebar([
     {
         text: "系统设计",
         children: [
+            "系统设计基础.md",
             "消息队列.md",
             "分布式.md",
-            "攻击技术.md",
+            "微服务.md",
             "缓存.md",
             "集群.md",
-            "微服务.md",
-            "系统设计基础.md",
+            "攻击技术.md",
         ]
     },
 ]);

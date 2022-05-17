@@ -1,3 +1,12 @@
+---
+title: Java8特性
+icon:
+category: Java
+tag:
+  - Java8
+  - Stream
+  - Optional
+---
 <!-- GFM-TOC -->
 * [Java 8 特性](#java-8-特性)
   * [Java语言](#java语言)
@@ -10,7 +19,7 @@
   * [Java 官方库](#java-官方库)
     * [Streams](#streams)
     * [Parallel Streams](#parallel-streams)
-    * [Optionals](#optionals)
+    * [Optional](#optional)
     * [日期相关API(Date API)](#日期相关apidate-api)
     * [Base64](#base64)
   * [JVM](#jvm)
@@ -437,7 +446,7 @@ Stream提供了多种匹配操作，允许检测指定的Predicate是否匹配�
 
 Stream有串行和并行两种，串行Stream上的操作是在一个线程中依次完成，而并行Stream则是在多个线程上同时执行。
 
-### Optionals
+### Optional
 
 Java 8引入Optional类来防止空指针异常，Optional类最先是由Google的Guava项目引入的。Optional类实际上是个容器：它可以保存类型T的值，或者保存null。使用Optional类我们就不用显式进行空指针检查了。在Java 8之前一般某个函数应该返回非空对象但是有时却什么也没有返回，而在Java 8中，你应该返回 Optional 而不是 null。
 
