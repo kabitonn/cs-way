@@ -6,17 +6,24 @@
     <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/</link>
     <description>CS Way</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 16 May 2022 12:09:16 GMT</pubDate>
-    <lastBuildDate>Mon, 16 May 2022 12:09:16 GMT</lastBuildDate>
+    <pubDate>Tue, 17 May 2022 12:24:16 GMT</pubDate>
+    <lastBuildDate>Tue, 17 May 2022 12:24:16 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Java</category>
+    <category>OOP</category>
     <category>计算机基础</category>
+    <category>数据库</category>
+    <category>框架</category>
+    <category>网络</category>
     <category>计算机</category>
+    <category>中间件</category>
     <item>
-      <title>Servlet 介绍</title>
+      <title>JavaEE</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/JavaEE.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/JavaEE.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">Servlet 介绍</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">JavaEE</source>
+      <category>Java</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -946,10 +953,11 @@ JSP注释：不会被转译
 ]]></content:encoded>
     </item>
     <item>
-      <title>一、概览</title>
+      <title>JavaIO</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/JavaIO.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/JavaIO.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">一、概览</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">JavaIO</source>
+      <category>Java</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -1796,10 +1804,11 @@ AIO:异步非阻塞的I/O模型</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>一、数据类型</title>
+      <title>Java基础</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E5%9F%BA%E7%A1%80.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E5%9F%BA%E7%A1%80.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">一、数据类型</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">Java基础</source>
+      <category>Java</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -3182,10 +3191,11 @@ y<span>.</span>a <span>=</span> <span>1</span><span>;</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>一、概览</title>
+      <title>Java容器</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E5%AE%B9%E5%99%A8.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E5%AE%B9%E5%99%A8.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">一、概览</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">Java容器</source>
+      <category>Java</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -4310,10 +4320,11 @@ mask+1 100000000
 ]]></content:encoded>
     </item>
     <item>
-      <title>一、线程</title>
+      <title>Java并发基础</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E5%B9%B6%E5%8F%91%E5%9F%BA%E7%A1%80.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E5%B9%B6%E5%8F%91%E5%9F%BA%E7%A1%80.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">一、线程</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">Java并发基础</source>
+      <category>Java</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[ 
 <ul>
@@ -6008,10 +6019,11 @@ mask+1 100000000
 ]]></content:encoded>
     </item>
     <item>
-      <title>八、任务取消与关闭</title>
+      <title>Java并发进阶</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E5%B9%B6%E5%8F%91%E8%BF%9B%E9%98%B6.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E5%B9%B6%E5%8F%91%E8%BF%9B%E9%98%B6.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">八、任务取消与关闭</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">Java并发进阶</source>
+      <category>Java</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[ 
 <ul>
@@ -6842,10 +6854,11 @@ Join方法的主要作用是阻塞当前线程并等待获取结果</li>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Java 8 特性</title>
+      <title>Java8特性</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E7%89%B9%E6%80%A7.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E7%89%B9%E6%80%A7.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">Java 8 特性</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">Java8特性</source>
+      <category>Java</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -7159,7 +7172,7 @@ Join方法的主要作用是阻塞当前线程并等待获取结果</li>
 </code></pre></div><p>这个方法的主要作用是把 Stream 元素组合起来。它提供一个起始值（种子），然后依照运算规则（BinaryOperator），和前面 Stream 的第一个、第二个、第 n 个元素组合。从这个意义上说，字符串拼接、数值的 sum、min、max、average 都是特殊的 reduce。例如 Stream 的 sum 就相当于Integer sum = integers.reduce(0, (a, b) -&gt; a+b);也有没有起始值的情况，这时会把 Stream 的前面两个元素组合起来，返回的是 Optional。</p>
 <h3 id="parallel-streams" tabindex="-1"> Parallel Streams</h3>
 <p>Stream有串行和并行两种，串行Stream上的操作是在一个线程中依次完成，而并行Stream则是在多个线程上同时执行。</p>
-<h3 id="optionals" tabindex="-1"> Optionals</h3>
+<h3 id="optional" tabindex="-1"> Optional</h3>
 <p>Java 8引入Optional类来防止空指针异常，Optional类最先是由Google的Guava项目引入的。Optional类实际上是个容器：它可以保存类型T的值，或者保存null。使用Optional类我们就不用显式进行空指针检查了。在Java 8之前一般某个函数应该返回非空对象但是有时却什么也没有返回，而在Java 8中，你应该返回 Optional 而不是 null。</p>
 <h3 id="日期相关api-date-api" tabindex="-1"> 日期相关API(Date API)</h3>
 <p>时间和日期的管理一直是最令Java开发者痛苦的问题。java.util.Date和后来的java.util.Calendar一直没有解决这个问题。（甚至令开发者更加迷茫）。因为这些原因，诞生了第三方库Joda-Time，可以替代Java的时间管理API。</p>
@@ -7220,10 +7233,11 @@ Join方法的主要作用是阻塞当前线程并等待获取结果</li>
 ]]></content:encoded>
     </item>
     <item>
-      <title>JDK监控</title>
+      <title>Java虚拟机JVM调优</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E8%B0%83%E4%BC%98.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E8%99%9A%E6%8B%9F%E6%9C%BA-JVM%E8%B0%83%E4%BC%98.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">JDK监控</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">Java虚拟机JVM调优</source>
+      <category>Java</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -7242,10 +7256,11 @@ Join方法的主要作用是阻塞当前线程并等待获取结果</li>
 ]]></content:encoded>
     </item>
     <item>
-      <title>一、运行时数据区域</title>
+      <title>Java虚拟机内存管理</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E8%99%9A%E6%8B%9F%E6%9C%BA-%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E8%99%9A%E6%8B%9F%E6%9C%BA-%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">一、运行时数据区域</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">Java虚拟机内存管理</source>
+      <category>Java</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -7922,10 +7937,11 @@ obj <span>=</span> <span>null</span><span>;</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>五、类文件结构</title>
+      <title>Java虚拟机执行系统</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E8%99%9A%E6%8B%9F%E6%9C%BA-%E6%89%A7%E8%A1%8C%E7%B3%BB%E7%BB%9F.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/Java/Java%E8%99%9A%E6%8B%9F%E6%9C%BA-%E6%89%A7%E8%A1%8C%E7%B3%BB%E7%BB%9F.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">五、类文件结构</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">Java虚拟机执行系统</source>
+      <category>Java</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -9332,10 +9348,11 @@ Signature：作用是存储一个方法在字节码层面的特征签名，保�
 ]]></content:encoded>
     </item>
     <item>
-      <title>中介者（Mediator）</title>
+      <title>中介者模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%AD%E4%BB%8B%E8%80%85.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%AD%E4%BB%8B%E8%80%85.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">中介者（Mediator）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">中介者模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -9554,10 +9571,11 @@ Signature：作用是存储一个方法在字节码层面的特征签名，保�
 ]]></content:encoded>
     </item>
     <item>
-      <title>享元（Flyweight）</title>
+      <title>享元模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%BA%AB%E5%85%83.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%BA%AB%E5%85%83.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">享元（Flyweight）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">享元模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -9690,10 +9708,11 @@ ExtrinsicState: y
 ]]></content:encoded>
     </item>
     <item>
-      <title>代理（Proxy）</title>
+      <title>代理模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%BB%A3%E7%90%86.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%BB%A3%E7%90%86.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">代理（Proxy）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">代理模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -9884,10 +9903,11 @@ ExtrinsicState: y
 ]]></content:encoded>
     </item>
     <item>
-      <title>单例（Singleton）</title>
+      <title>单例模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8D%95%E4%BE%8B.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8D%95%E4%BE%8B.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">单例（Singleton）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">单例模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -10117,10 +10137,11 @@ secondName
 ]]></content:encoded>
     </item>
     <item>
-      <title>原型模式（Prototype）</title>
+      <title>原型模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">原型模式（Prototype）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">原型模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -10239,10 +10260,11 @@ secondName
 ]]></content:encoded>
     </item>
     <item>
-      <title>命令（Command）</title>
+      <title>命令模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%91%BD%E4%BB%A4.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%91%BD%E4%BB%A4.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">命令（Command）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">命令模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -10422,10 +10444,11 @@ secondName
 ]]></content:encoded>
     </item>
     <item>
-      <title>备忘录（Memento）</title>
+      <title>备忘录模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%A4%87%E5%BF%98%E5%BD%95.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%A4%87%E5%BF%98%E5%BD%95.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">备忘录（Memento）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">备忘录模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -10644,10 +10667,11 @@ secondName
 ]]></content:encoded>
     </item>
     <item>
-      <title>外观（Facade）</title>
+      <title>外观门面模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%A4%96%E8%A7%82.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%A4%96%E8%A7%82.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">外观（Facade）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">外观门面模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -10747,6 +10771,7 @@ secondName
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.html</guid>
       <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">工厂模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -11055,10 +11080,11 @@ secondName
 ]]></content:encoded>
     </item>
     <item>
-      <title>建造者模式（Builder）</title>
+      <title>建造者模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">建造者模式（Builder）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">建造者模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -11253,10 +11279,11 @@ secondName
 ]]></content:encoded>
     </item>
     <item>
-      <title>桥接（Bridge）</title>
+      <title>桥接模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E6%A1%A5%E6%8E%A5.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E6%A1%A5%E6%8E%A5.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">桥接（Bridge）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">桥接模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -11499,10 +11526,11 @@ secondName
 ]]></content:encoded>
     </item>
     <item>
-      <title>模板方法（Template Method）</title>
+      <title>模板方法模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">模板方法（Template Method）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">模板方法模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -11643,10 +11671,11 @@ Tea.addCondiments
 ]]></content:encoded>
     </item>
     <item>
-      <title>状态（State）</title>
+      <title>状态模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%8A%B6%E6%80%81.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%8A%B6%E6%80%81.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">状态（State）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">状态模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -11995,10 +12024,11 @@ No gumball dispensed
 ]]></content:encoded>
     </item>
     <item>
-      <title>一、前言</title>
+      <title>设计模式目录</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%9B%AE%E5%BD%95.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%9B%AE%E5%BD%95.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">一、前言</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">设计模式目录</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="一、前言" tabindex="-1"> 一、前言</h1>
 <p>设计模式是解决问题的方案，学习现有的设计模式可以做到经验复用。拥有设计模式词汇，在沟通时就能用更少的词汇来讨论，并且不需要了解底层细节。</p>
@@ -12046,10 +12076,11 @@ No gumball dispensed
 ]]></content:encoded>
     </item>
     <item>
-      <title>空对象（Null）</title>
+      <title>空对象模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%A9%BA%E5%AF%B9%E8%B1%A1.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%A9%BA%E5%AF%B9%E8%B1%A1.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">空对象（Null）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">空对象模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -12113,10 +12144,11 @@ No gumball dispensed
 ]]></content:encoded>
     </item>
     <item>
-      <title>策略（Strategy）</title>
+      <title>策略模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%AD%96%E7%95%A5.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%AD%96%E7%95%A5.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">策略（Strategy）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">策略模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -12341,10 +12373,11 @@ quack!
 ]]></content:encoded>
     </item>
     <item>
-      <title>组合（Composite）</title>
+      <title>组合模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%BB%84%E5%90%88.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%BB%84%E5%90%88.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">组合（Composite）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">组合模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -12523,10 +12556,11 @@ quack!
 ]]></content:encoded>
     </item>
     <item>
-      <title>装饰（Decorator）</title>
+      <title>装饰模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%A3%85%E9%A5%B0.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%A3%85%E9%A5%B0.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">装饰（Decorator）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">装饰模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -12691,10 +12725,11 @@ quack!
 ]]></content:encoded>
     </item>
     <item>
-      <title>观察者（Observer）</title>
+      <title>观察者模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%A7%82%E5%AF%9F%E8%80%85.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%A7%82%E5%AF%9F%E8%80%85.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">观察者（Observer）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">观察者模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -12901,10 +12936,11 @@ StatisticsDisplay.update: 1.0 1.0 1.0
 ]]></content:encoded>
     </item>
     <item>
-      <title>解释器（Interpreter）</title>
+      <title>解释器模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%A7%A3%E9%87%8A%E5%99%A8.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%A7%A3%E9%87%8A%E5%99%A8.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">解释器（Interpreter）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">解释器模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -13077,10 +13113,11 @@ false
 ]]></content:encoded>
     </item>
     <item>
-      <title>访问者（Visitor）</title>
+      <title>访问者模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%AE%BF%E9%97%AE%E8%80%85.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%AE%BF%E9%97%AE%E8%80%85.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">访问者（Visitor）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">访问者模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -13337,10 +13374,11 @@ Number of items:     6
 ]]></content:encoded>
     </item>
     <item>
-      <title>责任链（Chain Of Responsibility）</title>
+      <title>责任链模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%B4%A3%E4%BB%BB%E9%93%BE.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%B4%A3%E4%BB%BB%E9%93%BE.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">责任链（Chain Of Responsibility）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">责任链模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -13495,10 +13533,11 @@ request2 is handle by ConcreteHandler2
 ]]></content:encoded>
     </item>
     <item>
-      <title>迭代器（Iterator）</title>
+      <title>迭代器模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%BF%AD%E4%BB%A3%E5%99%A8.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%BF%AD%E4%BB%A3%E5%99%A8.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">迭代器（Iterator）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">迭代器模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -13639,10 +13678,11 @@ request2 is handle by ConcreteHandler2
 ]]></content:encoded>
     </item>
     <item>
-      <title>适配器（Adapter）</title>
+      <title>适配器模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E9%80%82%E9%85%8D%E5%99%A8.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E9%80%82%E9%85%8D%E5%99%A8.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">适配器（Adapter）</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">适配器模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -13798,10 +13838,11 @@ request2 is handle by ConcreteHandler2
 ]]></content:encoded>
     </item>
     <item>
-      <title>虚拟内存</title>
+      <title>计算机操作系统-内存管理</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">虚拟内存</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机操作系统-内存管理</source>
+      <category>计算机基础</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -13909,12 +13950,12 @@ request2 is handle by ConcreteHandler2
 ]]></content:encoded>
     </item>
     <item>
-      <title>计算机系统概述</title>
+      <title>计算机操作系统-概述</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E6%A6%82%E8%BF%B0.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E6%A6%82%E8%BF%B0.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机系统概述</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机操作系统-概述</source>
       <category>计算机基础</category>
-      <pubDate>Sun, 27 Dec 2020 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
 <li>
@@ -14032,10 +14073,11 @@ request2 is handle by ConcreteHandler2
 ]]></content:encoded>
     </item>
     <item>
-      <title>必要条件</title>
+      <title>计算机操作系统-死锁</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E6%AD%BB%E9%94%81.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E6%AD%BB%E9%94%81.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">必要条件</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机操作系统-死锁</source>
+      <category>计算机基础</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -14150,10 +14192,11 @@ request2 is handle by ConcreteHandler2
 ]]></content:encoded>
     </item>
     <item>
-      <title>目录</title>
+      <title>计算机操作系统-目录</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E7%9B%AE%E5%BD%95.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E7%9B%AE%E5%BD%95.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">目录</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机操作系统-目录</source>
+      <category>计算机基础</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="目录" tabindex="-1"> 目录</h1>
 <ul>
@@ -14179,10 +14222,11 @@ request2 is handle by ConcreteHandler2
 ]]></content:encoded>
     </item>
     <item>
-      <title>磁盘结构</title>
+      <title>计算机操作系统-设备管理</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">磁盘结构</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机操作系统-设备管理</source>
+      <category>计算机基础</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -14238,10 +14282,11 @@ request2 is handle by ConcreteHandler2
 ]]></content:encoded>
     </item>
     <item>
-      <title>进程与线程</title>
+      <title>计算机操作系统-进程管理</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">进程与线程</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机操作系统-进程管理</source>
+      <category>计算机基础</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -14747,10 +14792,11 @@ semaphore s<span>[</span>N<span>]</span><span>;</span>              <span>// 每
 ]]></content:encoded>
     </item>
     <item>
-      <title>编译系统</title>
+      <title>计算机操作系统-链接</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E9%93%BE%E6%8E%A5.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E9%93%BE%E6%8E%A5.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">编译系统</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机操作系统-链接</source>
+      <category>计算机基础</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -14807,10 +14853,11 @@ semaphore s<span>[</span>N<span>]</span><span>;</span>              <span>// 每
 ]]></content:encoded>
     </item>
     <item>
-      <title>595. Big Countries</title>
+      <title>LeetCode数据库题解</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%95%B0%E6%8D%AE%E5%BA%93/Leetcode-Database%E9%A2%98%E8%A7%A3.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%95%B0%E6%8D%AE%E5%BA%93/Leetcode-Database%E9%A2%98%E8%A7%A3.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">595. Big Countries</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">LeetCode数据库题解</source>
+      <category>数据库</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -15660,10 +15707,11 @@ AddressId is the primary key column for this table.
 </code></pre><div aria-hidden="true"><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>Pandora Boot</title>
+      <title>PandoraBoot</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%A1%86%E6%9E%B6/PandoraBoot.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E6%A1%86%E6%9E%B6/PandoraBoot.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">Pandora Boot</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">PandoraBoot</source>
+      <category>框架</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -26687,10 +26735,11 @@ from H1 to H3
 </code></pre><div aria-hidden="true"><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>UDP 和 TCP 的特点</title>
+      <title>计算机网络-传输层</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E4%BC%A0%E8%BE%93%E5%B1%82.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E4%BC%A0%E8%BE%93%E5%B1%82.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">UDP 和 TCP 的特点</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机网络-传输层</source>
+      <category>网络</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -26861,10 +26910,11 @@ from H1 to H3
 ]]></content:encoded>
     </item>
     <item>
-      <title>域名系统</title>
+      <title>计算机网络-应用层</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E5%BA%94%E7%94%A8%E5%B1%82.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E5%BA%94%E7%94%A8%E5%B1%82.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">域名系统</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机网络-应用层</source>
+      <category>网络</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -27108,10 +27158,11 @@ from H1 to H3
 ]]></content:encoded>
     </item>
     <item>
-      <title>网络的网络</title>
+      <title>计算机网络-概述</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E6%A6%82%E8%BF%B0.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E6%A6%82%E8%BF%B0.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">网络的网络</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机网络-概述</source>
+      <category>网络</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -27140,7 +27191,6 @@ from H1 to H3
 <li></li>
 </ul>
 </li>
-<li></li>
 </ul>
 
 <h1 id="网络的网络" tabindex="-1"> 网络的网络</h1>
@@ -27224,10 +27274,11 @@ from H1 to H3
 ]]></content:encoded>
     </item>
     <item>
-      <title>通信方式</title>
+      <title>计算机网络-物理层</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E7%89%A9%E7%90%86%E5%B1%82.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E7%89%A9%E7%90%86%E5%B1%82.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">通信方式</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机网络-物理层</source>
+      <category>网络</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -27248,10 +27299,47 @@ from H1 to H3
 ]]></content:encoded>
     </item>
     <item>
-      <title>概述</title>
+      <title>计算机网络-目录</title>
+      <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E7%9B%AE%E5%BD%95.html</link>
+      <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E7%9B%AE%E5%BD%95.html</guid>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机网络-目录</source>
+      <category>网络</category>
+      <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="目录" tabindex="-1"> 目录</h1>
+<ul>
+<li><a href="/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E6%A6%82%E8%BF%B0.html">概述</a></li>
+<li><a href="/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E7%89%A9%E7%90%86%E5%B1%82.html">物理层</a></li>
+<li><a href="/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E9%93%BE%E8%B7%AF%E5%B1%82.html">链路层</a></li>
+<li><a href="/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E7%BD%91%E7%BB%9C%E5%B1%82.html">网络层</a></li>
+<li><a href="/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E4%BC%A0%E8%BE%93%E5%B1%82.html">传输层</a></li>
+<li><a href="/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E5%BA%94%E7%94%A8%E5%B1%82.html">应用层</a></li>
+</ul>
+<h1 id="参考链接" tabindex="-1"> 参考链接</h1>
+<ul>
+<li>计算机网络, 谢希仁</li>
+<li>JamesF.Kurose, KeithW.Ross, 库罗斯, 等. 计算机网络: 自顶向下方法 [M]. 机械工业出版社, 2014.</li>
+<li>W.RichardStevens. TCP/IP 详解. 卷 1, 协议 [M]. 机械工业出版社, 2006.</li>
+<li><a href="https://securitywing.com/active-vs-passive-ftp-mode/" target="_blank" rel="noopener noreferrer">Active vs Passive FTP Mode: Which One is More Secure?</a></li>
+<li><a href="http://www.serv-u.com/kb/1138/active-and-passive-ftp-transfers-defined" target="_blank" rel="noopener noreferrer">Active and Passive FTP Transfers Defined - KB Article #1138</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/Traceroute" target="_blank" rel="noopener noreferrer">Traceroute</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/Ping" target="_blank" rel="noopener noreferrer">ping</a></li>
+<li><a href="http://webcache.googleusercontent.com/search?q=cache:http://anandgiria.blogspot.com/2013/09/windows-dhcp-interview-questions-and.html" target="_blank" rel="noopener noreferrer">How DHCP works and DHCP Interview Questions and Answers</a></li>
+<li><a href="https://www.quora.com/What-is-process-of-DORA-in-DHCP" target="_blank" rel="noopener noreferrer">What is process of DORA in DHCP?</a></li>
+<li><a href="https://tecadmin.net/what-is-dhcp-server/" target="_blank" rel="noopener noreferrer">What is DHCP Server ?</a></li>
+<li><a href="http://www.climatechangenews.com/2011/html/university-tokyo.html" target="_blank" rel="noopener noreferrer">Tackling emissions targets in Tokyo</a></li>
+<li><a href="http://www.climatechangenews.com/2011/html/university-tokyo.html" target="_blank" rel="noopener noreferrer">What does my ISP know when I use Tor?</a></li>
+<li><a href="http://www.linyibin.cn/2017/02/12/technology-ComputerNetworking-Internet/" target="_blank" rel="noopener noreferrer">Technology-Computer Networking[1]-Computer Networks and the Internet</a></li>
+<li><a href="http://slidesplayer.com/slide/11616167/" target="_blank" rel="noopener noreferrer">P2P 网络概述.</a></li>
+<li><a href="http://slideplayer.com/slide/5115386/" target="_blank" rel="noopener noreferrer">Circuit Switching (a) Circuit switching. (b) Packet switching.</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>计算机网络-目录</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E7%BD%91%E7%BB%9C%E5%B1%82.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E7%BD%91%E7%BB%9C%E5%B1%82.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">概述</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机网络-目录</source>
+      <category>网络</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -27282,7 +27370,6 @@ from H1 to H3
 <li></li>
 </ul>
 </li>
-<li></li>
 </ul>
 
 <h1 id="概述" tabindex="-1"> 概述</h1>
@@ -27448,10 +27535,11 @@ from H1 to H3
 ]]></content:encoded>
     </item>
     <item>
-      <title>基本问题</title>
+      <title>计算机网络-链路层</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E9%93%BE%E8%B7%AF%E5%B1%82.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E9%93%BE%E8%B7%AF%E5%B1%82.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">基本问题</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机网络-链路层</source>
+      <category>网络</category>
       <pubDate>Mon, 16 May 2022 12:07:59 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -27477,7 +27565,6 @@ from H1 to H3
 <li></li>
 </ul>
 </li>
-<li></li>
 <li></li>
 <li></li>
 <li></li>
@@ -27601,7 +27688,7 @@ from H1 to H3
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/</guid>
       <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">计算机Note</source>
       <category>计算机</category>
-      <pubDate>Sun, 27 Dec 2020 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 16 May 2022 04:59:52 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="" tabindex="-1"> </h1>
 <h1 id="✏️-算法" tabindex="-1"> ✏️ 算法</h1>
 <ul>
@@ -27713,10 +27800,11 @@ from H1 to H3
       <pubDate>Mon, 16 May 2022 04:59:52 GMT</pubDate>
     </item>
     <item>
-      <title>一、概述</title>
+      <title>设计模式</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">一、概述</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">设计模式</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 04:59:52 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -30286,10 +30374,11 @@ ExtrinsicState: y
 ]]></content:encoded>
     </item>
     <item>
-      <title>一、三大特性</title>
+      <title>面向对象思想</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%80%9D%E6%83%B3.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/OOP/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%80%9D%E6%83%B3.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">一、三大特性</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">面向对象思想</source>
+      <category>OOP</category>
       <pubDate>Mon, 16 May 2022 04:59:52 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -30662,10 +30751,11 @@ Vihicle .. N
       <pubDate>Mon, 16 May 2022 04:59:52 GMT</pubDate>
     </item>
     <item>
-      <title>分布式架构</title>
+      <title>分布式中间件</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">分布式架构</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">分布式中间件</source>
+      <category>中间件</category>
       <pubDate>Mon, 16 May 2022 04:59:52 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -30685,10 +30775,11 @@ Vihicle .. N
 ]]></content:encoded>
     </item>
     <item>
-      <title>分布式事务解决方案</title>
+      <title>分布式事务</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">分布式事务解决方案</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">分布式事务</source>
+      <category>中间件</category>
       <pubDate>Mon, 16 May 2022 04:59:52 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -30774,10 +30865,11 @@ Vihicle .. N
 ]]></content:encoded>
     </item>
     <item>
-      <title>OpenSearch</title>
+      <title>分布式搜索</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E6%90%9C%E7%B4%A2.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E6%90%9C%E7%B4%A2.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">OpenSearch</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">分布式搜索</source>
+      <category>中间件</category>
       <pubDate>Mon, 16 May 2022 04:59:52 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -30836,12 +30928,32 @@ OpenSearch将搜索引擎复杂的索引结构概念简单化、可视化和自�
 ]]></content:encoded>
     </item>
     <item>
-      <title>TDDL</title>
+      <title>分布式数据库</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E6%95%B0%E6%8D%AE%E5%BA%93.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E6%95%B0%E6%8D%AE%E5%BA%93.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">TDDL</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">分布式数据库</source>
+      <category>中间件</category>
       <pubDate>Mon, 16 May 2022 04:59:52 GMT</pubDate>
       <content:encoded><![CDATA[
+<ul>
+<li>
+<ul>
+<li></li>
+<li></li>
+<li>
+<ul>
+<li></li>
+</ul>
+</li>
+<li>
+<ul>
+<li></li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
 <h1 id="tddl" tabindex="-1"> TDDL</h1>
 <h2 id="产生背景" tabindex="-1"> 产生背景</h2>
@@ -30911,10 +31023,11 @@ OpenSearch将搜索引擎复杂的索引结构概念简单化、可视化和自�
 ]]></content:encoded>
     </item>
     <item>
-      <title>介绍</title>
+      <title>分布式服务</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%8D%E5%8A%A1.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%8D%E5%8A%A1.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">介绍</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">分布式服务</source>
+      <category>中间件</category>
       <pubDate>Mon, 16 May 2022 04:59:52 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -31046,10 +31159,11 @@ OpenSearch将搜索引擎复杂的索引结构概念简单化、可视化和自�
 ]]></content:encoded>
     </item>
     <item>
-      <title>MetaQ</title>
+      <title>分布式消息</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E6%B6%88%E6%81%AF.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E6%B6%88%E6%81%AF.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">MetaQ</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">分布式消息</source>
+      <category>中间件</category>
       <pubDate>Mon, 16 May 2022 04:59:52 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -31272,10 +31386,11 @@ OpenSearch将搜索引擎复杂的索引结构概念简单化、可视化和自�
 ]]></content:encoded>
     </item>
     <item>
-      <title>缓存更新模式</title>
+      <title>分布式缓存</title>
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E7%BC%93%E5%AD%98.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E7%BC%93%E5%AD%98.html</guid>
-      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">缓存更新模式</source>
+      <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">分布式缓存</source>
+      <category>中间件</category>
       <pubDate>Mon, 16 May 2022 04:59:52 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
@@ -31569,8 +31684,12 @@ Guava cache是google开发的，目前被常用在单机上，如果是分布式
       <link>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97.html</link>
       <guid>https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/notes/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97.html</guid>
       <source url="https://vuepress-theme-hope-v2-demo.mrhope.site/cs-way/rss.xml">分布式计算</source>
+      <category>中间件</category>
       <pubDate>Mon, 16 May 2022 04:59:52 GMT</pubDate>
       <content:encoded><![CDATA[
+<ul>
+<li></li>
+</ul>
 
 <h1 id="分布式计算" tabindex="-1"> 分布式计算</h1>
 <p>分布式计算系统构建在分布式存储的基础上，充分发挥分布式系统的数据冗余灾备，多副本高效获取数据的特性，进而并行计算，把原本需要长时间计算的任务拆分成多个任务并行处理，从而提高了计算效率。分布式计算系统在场景上分为离线计算，实时计算和流式计算。</p>
