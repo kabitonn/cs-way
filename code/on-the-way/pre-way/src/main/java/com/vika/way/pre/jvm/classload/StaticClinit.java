@@ -5,7 +5,8 @@ import org.junit.Test;
 public class StaticClinit {
 
     static {
-        //i = 1;
+        //System.out.println(i);
+        i = 1;
     }
 
     private static int i;

@@ -2,6 +2,7 @@ package com.vika.way.pre.reflection;
 
 import com.vika.way.pre.annotation.FieldMeta;
 import lombok.Data;
+import lombok.experimental.Accessors;
 import org.junit.Test;
 import org.springframework.util.ReflectionUtils;
 
@@ -16,7 +17,10 @@ import java.util.List;
  * @date ：2020/7/21 4:18 下午
  */
 @Data
+@Accessors(chain = true)
 public class User {
+
+    String id;
 
     @FieldMeta("年龄")
     int age;
