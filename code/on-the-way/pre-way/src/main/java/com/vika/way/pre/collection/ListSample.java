@@ -1,5 +1,6 @@
 package com.vika.way.pre.collection;
 
+import org.apache.commons.collections4.CollectionUtils;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -24,4 +25,5 @@ public class ListSample {
         List<Integer> list = new ArrayList<>(Arrays.asList(1));
         System.out.println(list);
     }
+
 }

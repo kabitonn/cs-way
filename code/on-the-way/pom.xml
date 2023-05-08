@@ -21,16 +21,21 @@
         <module>simple-rpc-consumer</module>
         <module>spring-way</module>
         <module>coding-way</module>
+        <module>common-strategy</module>
+        <module>common-pipeline</module>
     </modules>
 
     <properties>
         <simple-rpc-provider-client.version>1.0.0-SNAPSHOT</simple-rpc-provider-client.version>
         <simple-rpc-starter.version>1.0.0-SNAPSHOT</simple-rpc-starter.version>
+        <common-strategy.version>1.0.0-SNAPSHOT</common-strategy.version>
+        <common-pipeline.version>1.0.0-SNAPSHOT</common-pipeline.version>
         <inner.module.version>1.0.0-SNAPSHOT</inner.module.version>
         <java.version>1.8</java.version>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <spring-boot.version>2.1.16.RELEASE</spring-boot.version>
+        <pandora-boot.version>2020-07-release</pandora-boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
@@ -51,6 +56,19 @@
                 <artifactId>simple-rpc-provider-client</artifactId>
                 <version>${simple-rpc-provider-client.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.vika.onway</groupId>
+                <artifactId>common-pipeline</artifactId>
+                <version>${common-pipeline.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.vika.onway</groupId>
+                <artifactId>common-strategy</artifactId>
+                <version>${common-strategy.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
@@ -61,6 +79,22 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>${spring-boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.taobao.pandora</groupId>
+                <artifactId>pandora-boot-starter-bom</artifactId>
+                <version>${pandora-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
 
             <dependency>
@@ -146,9 +180,14 @@
             </dependency>
 
             <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.4</version>
+            </dependency>
+            <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>16.0.1</version>
+                <version>20.0</version>
                 <scope>compile</scope>
             </dependency>
 

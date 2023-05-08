@@ -1,6 +1,6 @@
-package com.vika.way.spring.pipeline.handler;
+package com.vika.way.common.lang.pipeline.handler;
 
-import com.vika.way.spring.pipeline.PipelineHandler;
+import com.vika.way.common.lang.pipeline.PipelineHandler;
 
 /**
  * @author chenwei.tjw

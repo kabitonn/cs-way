@@ -1,4 +1,4 @@
-package com.vika.way.spring.pipeline;
+package com.vika.way.common.lang.pipeline;
 
 import lombok.Data;
 
@@ -10,13 +10,11 @@ import java.util.Set;
  * @author chenwei.tjw
  * @date 2022/11/27
  **/
-
 @Data
-public class PipelineResult<R> {
-
+public class PipelineContext<T> {
     private Map<String, Object> attribute = new HashMap<>();
 
-    private R data;
+    private T data;
 
     /**
      * 上下文中添加数据

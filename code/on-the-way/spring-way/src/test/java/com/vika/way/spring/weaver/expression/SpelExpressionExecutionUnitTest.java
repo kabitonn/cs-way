@@ -105,6 +105,16 @@ public class SpelExpressionExecutionUnitTest {
         System.out.println(ExpressionParserUtils.getListSizeByDegree("#target['mainList'][i]['principal'] = #source.get('quantity')[i]",1, executionContext));
 
 
+        expression = "#target['receiveFinishTime']=1672502599000L";
+        expressionExecutionUnit = new ExpressionExecutionUnit(expression, WeaverExecuteLangEnum.SpEL);
+        obj = expressionExecutionUnit.execute(executionContext);
+        System.out.println(obj);
+
+        expression = "#target['receiveFinishTime']>=1672502400000L";
+        expressionExecutionUnit = new ExpressionExecutionUnit(expression, WeaverExecuteLangEnum.SpEL);
+        obj = expressionExecutionUnit.execute(executionContext);
+        System.out.println(obj);
+
     }
 
 

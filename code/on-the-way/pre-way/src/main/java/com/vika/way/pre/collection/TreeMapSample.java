@@ -2,6 +2,9 @@ package com.vika.way.pre.collection;
 
 import org.junit.Test;
 
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.TreeMap;
 
 /**
@@ -16,5 +19,13 @@ public class TreeMapSample {
         treeMap.put("", "1");
         treeMap.put("", "2");
         System.out.println(treeMap);
+    }
+
+    @Test
+    public void testHashMap() {
+        Map<String, String> map = new HashMap<>();
+        map.put("", "1");
+        map.put("", "2");
+        map.putAll(Collections.EMPTY_MAP);
     }
 }

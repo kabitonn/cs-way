@@ -56,6 +56,8 @@ public class QLExpressionExecutionUnitTest {
         mainAttr.put("e", 123);
         mainAttr.put("f", 123L);
         mainAttr.put("g", "PURCHASE");
+        Long time = 1678264007000L;
+        mainAttr.put("orderPayTime", time);
 
         List<String> expressions = new ArrayList<>();
         Object obj;
@@ -94,6 +96,8 @@ public class QLExpressionExecutionUnitTest {
         expressions.add("$.mainAttr.g==PURCHASE");
         expressions.add("$.mainAttr.g==\"PURCHASE\"");
         expressions.add("$.mainAttr.g=='PURCHASE'");
+
+        expressions.add("$.mainAttr.orderPayTime>'1678264006000'");
 
 
         for (String expression : expressions) {
@@ -134,7 +138,9 @@ public class QLExpressionExecutionUnitTest {
         expressions.add("$.mainAttr.payTime=='1663136157000'");
         expressions.add("$.mainAttr.payTime>=1663136156999");
 
-        expressions.add("$.main.partnerCode>=282623144");
+        expressions.add("$.main.partnerCode>=282623144 or true");
+
+        expressions.add("$.main.null!=null and $.main.null.a==1");
 
         for (String expression : expressions) {
             expressionExecutionUnit.setExpressionText(expression);

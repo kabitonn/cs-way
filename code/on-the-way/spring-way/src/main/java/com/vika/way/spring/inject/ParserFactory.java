@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
@@ -17,6 +18,12 @@ public class ParserFactory {
     @Autowired
     private Map<String, Iparser> parserMap;
 
+    @Autowired
+    private List<Iparser> parserList;
+
+    @Autowired
+    private ParserConfiguration parserConfiguration;
+
     @PostConstruct
     public void listParser() {
         System.out.println("parserMap:");
@@ -26,5 +33,11 @@ public class ParserFactory {
             }
         }
         System.out.println(parserMap.get("CATEGORY_ID"));
+        System.out.println("parserList:");
+        if (parserList != null) {
+            for (Iparser iparser : parserList) {
+                System.out.println(iparser);
+            }
+        }
     }
 }

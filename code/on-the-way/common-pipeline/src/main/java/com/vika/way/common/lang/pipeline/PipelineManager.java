@@ -1,4 +1,4 @@
-package com.vika.way.spring.pipeline;
+package com.vika.way.common.lang.pipeline;
 
 import lombok.Data;
 import org.springframework.util.Assert;

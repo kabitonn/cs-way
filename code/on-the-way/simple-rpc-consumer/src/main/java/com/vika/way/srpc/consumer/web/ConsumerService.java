@@ -27,4 +27,14 @@ public class ConsumerService {
     public String goodbye(String user) {
         return greetService.goodbye(user);
     }
+
+    @GetMapping("/send")
+    public String sendObject(String user) {
+        return greetService.send(user).toString();
+    }
+
+    @GetMapping("/testChild")
+    public String testChild(String user) {
+        return greetService.testChild(user).toString();
+    }
 }

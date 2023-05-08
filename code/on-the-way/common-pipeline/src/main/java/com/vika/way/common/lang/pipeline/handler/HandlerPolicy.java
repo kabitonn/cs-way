@@ -1,13 +1,9 @@
-package com.vika.way.spring.pipeline.handler;
+package com.vika.way.common.lang.pipeline.handler;
 
-import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeansException;
-import org.springframework.beans.factory.BeanInitializationException;
 import org.springframework.beans.factory.InitializingBean;
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import java.text.MessageFormat;
@@ -15,7 +11,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
  * @author chenwei.tjw
  * @date 2022/11/27
  **/

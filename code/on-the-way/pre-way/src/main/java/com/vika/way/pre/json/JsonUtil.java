@@ -18,13 +18,24 @@ public class JsonUtil {
 
     @Test
     public void testStringIntgerObject() {
-        String string = "{'number':0}";
-        String string1 = "{'number':'0'}";
+        String string = "{'number':1}";
+        String string1 = "{'number':'1'}";
+
+        JSONObject jsonObject0 = JSON.parseObject(string);
+        JSONObject jsonObject1 = JSON.parseObject(string1);
+
         System.out.println(JSON.toJSONString(JSON.parseObject(string, StringObject.class)));
         System.out.println(JSON.toJSONString(JSON.parseObject(string, IntegerObject.class)));
 
         System.out.println(JSON.toJSONString(JSON.parseObject(string1, StringObject.class)));
         System.out.println(JSON.toJSONString(JSON.parseObject(string1, IntegerObject.class)));
+
+        string = "{'number':1.5}";
+        string1 = "{'number':'1.5'}";
+        System.out.println(JSON.toJSONString(JSON.parseObject(string, StringObject.class)));
+        System.out.println(JSON.toJSONString(JSON.parseObject(string, IntegerObject.class)));
+        System.out.println(JSON.toJSONString(JSON.parseObject(string1, StringObject.class)));
+
 
         JSONObject object = JSON.parseObject(string);
         System.out.println(object.getJSONArray("a"));
@@ -61,5 +72,25 @@ public class JsonUtil {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("k1.k2", "v");
         System.out.println(jsonObject);
+    }
+
+    @Test
+    public void testList() {
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("stringList", "");
+        ListObject listObject = JSON.parseObject(JSON.toJSONString(jsonObject), ListObject.class);
+        System.out.println(listObject);
+    }
+
+    @Test
+    public void testString(){
+        String str = "{}";
+        System.out.println(str);
+        System.out.println(JSON.parseObject(str));
+        System.out.println(JSON.parseObject(str).toString());
+        System.out.println(JSON.toJSONString(JSON.parseObject(str)));
+
+        System.out.println(JSON.toJSONString(str));
+        //System.out.println(JSON.parseObject(JSON.toJSONString(str)));
     }
 }

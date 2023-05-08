@@ -33,6 +33,10 @@ public class User {
 
     Boolean child;
 
+    private String attribute;
+
+    private String advances;
+
     @Test
     public void testField() throws Exception {
         User user = new User();

@@ -1,0 +1,254 @@
+{
+  "brandCategoryRelationList": [
+    {
+      "brandId": 232268298,
+      "categoryId": 23853438
+    },
+    {
+      "brandId": 232268298,
+      "categoryId": 23853457
+    }
+  ],
+  "brandCategoryRelationMap": {
+    "232268298": [
+      23853438,
+      23853457
+    ]
+  },
+  "descriptionProvision": {
+    "depositAmount": 1000,
+    "authenticTrace": "1",
+    "priceControl": "1",
+    "tradeTerms": "FOB_2010",
+    "depositPaymentWay": "2",
+    "warranty": "1",
+    "depositNeeded": "Y",
+    "depositCurrency": "CNY",
+    "transportation": "SEA"
+  },
+  "finSettleProvision": {
+    "settleDayType": "EVERY_DAY",
+    "payMode": "PAY_AFTER_INVOICE",
+    "consignmentSettlementPrice": "RATE",
+    "payCode": "P2020071618001",
+    "settlementMode": "PURCHASE",
+    "settlementCode": "FIXED_DAY_ARRIVE15_6_13_20_27"
+  },
+  "returnGoodsProvision": {
+    "hasReturnCondition": "N",
+    "isCanReturn": "Y"
+  },
+  "saleRebateProvision": [
+    {
+      "provisionValue": 1,
+      "minusReturnGoods": "MINUS_RETURN_GOODS",
+      "chargeCategoryIdList": [
+        "23853438",
+        "23853457"
+      ],
+      "calculationBasis": "SALES",
+      "hasCondition": "N",
+      "chargeFrequency": "BY_ORDER",
+      "rebateType": "RATE",
+      "chargeModel": "DEBIT_THE_BILL",
+      "provisionCode": "6500016",
+      "taskStandard": "AMOUNT",
+      "provisionType": "FEE_ITEM",
+      "needCharge": 1,
+      "chargeRangeType": "CATEGORY",
+      "feeItemCode": "6500016",
+      "chargeBaseCalMethod": "CHARGR_RANGE_OVERLAY"
+    },
+    {
+      "provisionValue": 2,
+      "minusReturnGoods": "MINUS_RETURN_GOODS",
+      "calculationBasis": "SALES",
+      "hasCondition": "N",
+      "chargeFrequency": "BY_ORDER",
+      "rebateType": "RATE",
+      "chargeModel": "DEBIT_THE_BILL",
+      "provisionCode": "6500014",
+      "taskStandard": "AMOUNT",
+      "provisionType": "FEE_ITEM",
+      "brandCategory": [
+        {
+          "brandName": "Litter Pearls",
+          "brandId": "232268298",
+          "label": "Litter Pearls/232268298-鸟类及用品/23853438",
+          "categoryName": "鸟类及用品",
+          "value": "232268298-23853438",
+          "categoryId": "23853438"
+        },
+        {
+          "brandName": "Litter Pearls",
+          "brandId": "232268298",
+          "label": "Litter Pearls/232268298-其它宠物/23853457",
+          "categoryName": "其它宠物",
+          "value": "232268298-23853457",
+          "categoryId": "23853457"
+        }
+      ],
+      "needCharge": 1,
+      "chargeRangeType": "BRAND_CATEGORY",
+      "feeItemCode": "6500014",
+      "chargeBaseCalMethod": "CHARGR_RANGE_OVERLAY"
+    },
+    {
+      "provisionValue": 3,
+      "minusReturnGoods": "MINUS_RETURN_GOODS",
+      "calculationBasis": "SALES",
+      "hasCondition": "N",
+      "chargeFrequency": "BY_ORDER",
+      "rebateType": "RATE",
+      "chargeModel": "DEBIT_THE_ACCOUNT",
+      "provisionCode": "6500035",
+      "taskStandard": "AMOUNT",
+      "provisionType": "FEE_ITEM",
+      "needCharge": 1,
+      "chargeRangeType": "ALL",
+      "feeItemCode": "6500035",
+      "chargeBaseCalMethod": "CHARGR_RANGE_OVERLAY"
+    },
+    {
+      "provisionValue": 4,
+      "minusReturnGoods": "MINUS_RETURN_GOODS",
+      "calculationBasis": "SALES",
+      "hasCondition": "N",
+      "chargeFrequency": "BY_ORDER",
+      "rebateType": "RATE",
+      "chargeModel": "DEBIT_THE_ACCOUNT",
+      "provisionCode": "6500038",
+      "taskStandard": "AMOUNT",
+      "provisionType": "FEE_ITEM",
+      "needCharge": 1,
+      "chargeRangeType": "ALL",
+      "feeItemCode": "6500038",
+      "chargeBaseCalMethod": "CHARGR_RANGE_OVERLAY"
+    },
+    {
+      "provisionValue": 5,
+      "minusReturnGoods": "MINUS_RETURN_GOODS",
+      "calculationBasis": "SALES",
+      "hasCondition": "N",
+      "chargeFrequency": "BY_ORDER",
+      "rebateType": "RATE",
+      "chargeModel": "DEBIT_THE_ACCOUNT",
+      "provisionCode": "6500036",
+      "taskStandard": "AMOUNT",
+      "provisionType": "FEE_ITEM",
+      "needCharge": 1,
+      "chargeRangeType": "ALL",
+      "feeItemCode": "6500036",
+      "chargeBaseCalMethod": "CHARGR_RANGE_OVERLAY"
+    },
+    {
+      "chargeStartTime": 1683043200000,
+      "provisionValue": 6,
+      "minusReturnGoods": "NOT_CARE",
+      "chargeTimeList": [
+        "2023-05-03",
+        "2023-05-13"
+      ],
+      "chargeEndTime": 1683993599000,
+      "calculationBasis": "SALES",
+      "hasCondition": "N",
+      "chargeFrequency": "BY_ORDER",
+      "rebateType": "RATE",
+      "chargeModel": "DEBIT_THE_ACCOUNT",
+      "provisionCode": "6500019",
+      "taskStandard": "AMOUNT",
+      "provisionType": "FEE_ITEM",
+      "needCharge": 1,
+      "chargeRangeType": "ALL",
+      "feeItemCode": "6500019",
+      "chargeBaseCalMethod": "CHARGR_RANGE_OVERLAY"
+    },
+    {
+      "provisionValue": 7,
+      "minusReturnGoods": "MINUS_RETURN_GOODS",
+      "calculationBasis": "SALES",
+      "hasCondition": "N",
+      "chargeFrequency": "BY_ORDER",
+      "rebateType": "FIXED_AMOUNT_SINGLE",
+      "chargeModel": "DEBIT_THE_BILL",
+      "provisionCode": "6500023",
+      "taskStandard": "QUANTITY",
+      "provisionType": "FEE_ITEM",
+      "needCharge": 1,
+      "chargeRangeType": "ALL",
+      "feeItemCode": "6500023",
+      "chargeBaseCalMethod": "CHARGR_RANGE_OVERLAY"
+    },
+    {
+      "minusReturnGoods": "MINUS_RETURN_GOODS",
+      "calculationBasis": "SALES",
+      "stepCalFunction": "STEP",
+      "hasCondition": "Y",
+      "chargeFrequency": "BY_ORDER",
+      "rebateType": "WEIGHT",
+      "stepRateList": [
+        {
+          "minValue": 2,
+          "rate": 1,
+          "maxValue": 20,
+          "valueType": "AMOUNT",
+          "value": {
+            "maxValue": 20,
+            "minValue": 2
+          }
+        },
+        {
+          "minValue": 20,
+          "rate": 3,
+          "maxValue": 3000,
+          "valueType": "UNIT_PRICE",
+          "value": {
+            "maxValue": 3000,
+            "minValue": 20
+          }
+        }
+      ],
+      "chargeModel": "DEBIT_THE_BILL",
+      "provisionCode": "6500024",
+      "quotaCalFunction": "ABOVE_THE_QUOTA",
+      "taskStandard": "WEIGHT",
+      "provisionType": "FEE_ITEM",
+      "needCharge": 1,
+      "chargeRangeType": "ALL",
+      "feeItemCode": "6500024",
+      "chargeBaseCalMethod": "CHARGR_RANGE_OVERLAY"
+    }
+  ],
+  "cdcRebateProvision": [
+    {
+      "minusReturnGoods": "NOT_CARE",
+      "chargeCategoryIdList": [
+        "23853438",
+        "23853457"
+      ],
+      "calculationBasis": "PURCHASE",
+      "stepCalFunction": "LINEAR",
+      "hasCondition": "Y",
+      "chargeFrequency": "BY_ORDER",
+      "rebateType": "FIXED_AMOUNT_SINGLE",
+      "stepRateList": [
+        {
+          "minValue": 1,
+          "rate": 4,
+          "maxValue": "9999999999999",
+          "value": {
+            "minValue": 1,
+            "maxValue": "9999999999999"
+          }
+        }
+      ],
+      "chargeModel": "DEBIT_THE_ACCOUNT",
+      "provisionCode": "6500043",
+      "quotaCalFunction": "FULFIL_THE_QUOTA",
+      "taskStandard": "QUANTITY",
+      "provisionType": "NORMAL",
+      "chargeRangeType": "CATEGORY",
+      "feeItemCode": "6500043"
+    }
+  ]
+}

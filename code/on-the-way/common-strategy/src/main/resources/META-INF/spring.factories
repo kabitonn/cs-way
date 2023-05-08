@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.vika.way.common.lang.strategy.configuration.ServiceAutoConfiguration
