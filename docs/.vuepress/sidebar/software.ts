@@ -25,11 +25,11 @@ export const alg = arraySidebar([
             },
             {
                 text: "Leetcode",
-                link: "Leetcode 题解-目录.md"
+                link: "Leetcode题解-目录.md"
             }
             , {
                 text: "剑指offer",
-                link: "剑指 Offer 题解-目录.md"
+                link: "剑指Offer题解-目录.md"
             }
         ]
     },
